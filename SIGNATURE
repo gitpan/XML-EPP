@@ -1,0 +1,177 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.55.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 5ebf20e77850b956f9f03833932a7005ba59f0d9 COPYING.txt
+SHA1 c54291669d31c00ce07ee25cddddd1afb21f304c MANIFEST
+SHA1 4e36ecf0d82dd1e5efb93c715e58baab8fed3622 MANIFEST.SKIP
+SHA1 7011b907d8c8ecfea51cf329e08bec983fe02852 META.yml
+SHA1 72522602207ad519acd101eaf4d7398bb174a319 Makefile.PL
+SHA1 b1a752c355af930c8d0460253ee0a12475d3847e README
+SHA1 82fdde74b9affaf4a3254fc23a2815f3c1f0f407 SubmittingPatches
+SHA1 1ebec4119486a032a5612a403e8d7b7be973e938 inc/Module/Install.pm
+SHA1 24038af925a69df41972971356ccce885b0fe2ad inc/Module/Install/Base.pm
+SHA1 8f96eddfef548c9328457fbb17a121631cda356b inc/Module/Install/Can.pm
+SHA1 ec29048e48edd9c9c55f9de7b773bd7c904335ad inc/Module/Install/Fetch.pm
+SHA1 0384525d85d51e99532e3ad8729d870113646d14 inc/Module/Install/Makefile.pm
+SHA1 38c657de4d91f5a60ff8e6c6f6a5547daf7c4ab2 inc/Module/Install/Metadata.pm
+SHA1 5c25f1104c0038041e3b93e0660c39171e4caf2b inc/Module/Install/Win32.pm
+SHA1 94d47349c803c4bd2a9230d25e4db0b6aaf1acd8 inc/Module/Install/WriteAll.pm
+SHA1 aca6ce01d5b452dee8c159bf662385eac00d8d1e lib/XML/EPP.pm
+SHA1 5f27100d27b9275a492aa98cabfea7a06998914c lib/XML/EPP/Command.pm
+SHA1 172164048243ab9f769da89956c26b784e7f55a4 lib/XML/EPP/Common.pm
+SHA1 a42e75555e7e645905b037592034cb02344ac948 lib/XML/EPP/Common/ExtPassword.pm
+SHA1 3f4b52d1b772306db8a8f3bd2a935bd96fd79798 lib/XML/EPP/Common/Node.pm
+SHA1 6a547fe219e076b763efe521a8165976533df4c0 lib/XML/EPP/Common/Password.pm
+SHA1 9f8f519fe8fcbc3d9690410d8dcf614e7b92bda6 lib/XML/EPP/Common/Reason.pm
+SHA1 cccdaa8f5b42f039ca3b2bbec02ecdd4aea8e27d lib/XML/EPP/Common/eppcom-1.0.xsd
+SHA1 035e52b440aa15bcd091c183427ec0207e9b12b1 lib/XML/EPP/Contact/contact-1.0.xsd
+SHA1 5746662dc8b0b4fe300cbaee22965c8618383aeb lib/XML/EPP/Contact/rfc5733.txt
+SHA1 8849ae3cf7ba4d27092cf5edf4c1ff26755e4429 lib/XML/EPP/CredsOptions.pm
+SHA1 9fea581ae2257f926b80b02e9a4876f669bf090a lib/XML/EPP/DCP.pm
+SHA1 091cd3209ea236812570144ae1e3ddc6f0ded1a9 lib/XML/EPP/Domain/domain-1.0.xsd
+SHA1 85d0d5899a8557a29f0288131dfad66fb839be61 lib/XML/EPP/Domain/rfc5731.txt
+SHA1 04cbaa44641c4a78cad5fcc9ee89c56476842df4 lib/XML/EPP/Error.pm
+SHA1 4a05207ef8b4a3b6ddf97c2ef100d41aaf03eb2a lib/XML/EPP/ExtURI.pm
+SHA1 d2d411ffbc740ea2b25a5e3f680a7856b44b10db lib/XML/EPP/Extension.pm
+SHA1 150e0d5ef012f23753a2afa7c27b35f905c8f7ec lib/XML/EPP/Extension/Type.pm
+SHA1 8b39065688db33386f536d6094d164bb93e1fc0d lib/XML/EPP/Greeting.pm
+SHA1 c5d6116e08c02c5f560a30110968a7ecd56574b3 lib/XML/EPP/Hello.pm
+SHA1 62fa1b58c541cb70e19ccab3dc4373f78e855403 lib/XML/EPP/Host/host-1.0.xsd
+SHA1 84f6d0ee88800ad3723190f0fa9242aeb47aa7c1 lib/XML/EPP/Host/rfc5732.txt
+SHA1 57e4f61ee777b105f88ce4c4596498c20af89eb2 lib/XML/EPP/Login.pm
+SHA1 8ac8e4f766de16f0d29a73983284c922b687a6e1 lib/XML/EPP/MixedMsg.pm
+SHA1 13e5d1f1f91f29ba2357296a40f6b0ba7cd01e7f lib/XML/EPP/Msg.pm
+SHA1 a12f0cd83f975c63a04186664f005d0471386e81 lib/XML/EPP/MsgQ.pm
+SHA1 58d36cd5417604cfe6a946d49f866a772f638f08 lib/XML/EPP/Node.pm
+SHA1 da29db93ba3b1603df7aba0f8f3273d25f3e28a9 lib/XML/EPP/Plugin.pm
+SHA1 8ee726817d4ad5d1c7b9f231dfd47db306f5e54b lib/XML/EPP/Poll.pm
+SHA1 15bb9ef275b5c2d4244e0f8fa55dd19214f96831 lib/XML/EPP/RGP/rfc3915.txt
+SHA1 dad9752829979f093e77a3602b5dab84a164b2d7 lib/XML/EPP/RGP/rgp-1.0.xsd
+SHA1 0ff43ea8d0eacde270160864a23f20f69eb3c6e2 lib/XML/EPP/RequestedSvcs.pm
+SHA1 201e486273a506ef5a0cf834a86018993d6b0024 lib/XML/EPP/Response.pm
+SHA1 d0f16cbf5980642b0648c6581d2e59889a4aa42d lib/XML/EPP/Result.pm
+SHA1 fe6acf46654cac9d5e2e8f44d23e84b7d1ec6208 lib/XML/EPP/ResultData.pm
+SHA1 e478f6594055e4eb6571b0be13528df43d97ed2b lib/XML/EPP/SubCommand.pm
+SHA1 ec605d5fa177c916adfe6faf6eeb57bc295501e8 lib/XML/EPP/SubResponse.pm
+SHA1 7ff9969b257eb37a4617d65fe697e51d17e4065d lib/XML/EPP/SvcMenu.pm
+SHA1 b4e349cc6e1832942ba9723fa7bc2d000575bb38 lib/XML/EPP/TrID.pm
+SHA1 84696f0588fc528a621537a36eb6dd6f5bbd5643 lib/XML/EPP/Transfer.pm
+SHA1 cde7d6d21d21c91176d8cc7ea69b2bf1a8cd4dc8 lib/XML/EPP/epp-1.0.xsd
+SHA1 96094266ef868cdb5d42741e1457ed8da0fd99f1 lib/XML/EPP/rfc5730.txt
+SHA1 2253068b30428cebd5c1fc2c0abd6a9f51c22308 t/00-load.t
+SHA1 c9af7026de1effbb5c51bcdfee758de9c1733be8 t/01-firsteg.t
+SHA1 2170f2a08854c15434f7f19ea428775e541f8329 t/20-xml-rfc5730.t
+SHA1 92d67ed172c538fb157aa13d698f91f9110162ae t/20-xml-rfc5730/minimal/01-minimal-login.xml
+SHA1 d69ef61faec0dfd13f0eb15e37a2dcae5d681914 t/20-xml-rfc5730/rfc-examples/01-hello.xml
+SHA1 3523bd40faba32fe3c232e0f08243d0e1631697e t/20-xml-rfc5730/rfc-examples/02-greeting.xml
+SHA1 9f3d1c1b5df7fbc30b8a0478058008cf27cc8ef7 t/20-xml-rfc5730/rfc-examples/03-command.xml
+SHA1 b78b946d8bf485fb71beef733e20e008ed816854 t/20-xml-rfc5730/rfc-examples/04-response-noresdata.xml
+SHA1 cf7b4a655e7970f5980a0322587219a7d480dbe1 t/20-xml-rfc5730/rfc-examples/05-response-resdata.xml
+SHA1 37b403fe481b11500f961b0017fa9678f625b7eb t/20-xml-rfc5730/rfc-examples/06-response-error.xml
+SHA1 d2733e7412e648721b5910e6e6a3c53fc19e87ff t/20-xml-rfc5730/rfc-examples/07-response-waiting.xml
+SHA1 5b7b63cfaabee5b47bcf5c82a83a6285bac7aa51 t/20-xml-rfc5730/rfc-examples/08-extension-foo.xml
+SHA1 80cb5d666b223478763eb776e6cdc322fa0b58ff t/20-xml-rfc5730/rfc-examples/09-login.xml
+SHA1 3562566ef0b6148f027cee297dd3ff343c6be2c7 t/20-xml-rfc5730/rfc-examples/10-login-response.xml
+SHA1 52eca9ec8cb7a60c17158e184ab9ee17119cc855 t/20-xml-rfc5730/rfc-examples/11-logout.xml
+SHA1 e3fbbcf3a96df021dc91f5ad13f1725d27c9335d t/20-xml-rfc5730/rfc-examples/12-logout-response.xml
+SHA1 310ae598e0cee07d1b65412a9e2661623a371dfd t/20-xml-rfc5730/rfc-examples/13-check.xml
+SHA1 a8c53ef71c4a9caa4d907edb4976403d32359618 t/20-xml-rfc5730/rfc-examples/14-check-response.xml
+SHA1 7df57aa2970f659ff5995f7a6d966cf27f04e471 t/20-xml-rfc5730/rfc-examples/15-info.xml
+SHA1 b22f3c12536730351d8ddd7f78b6f51878d12ad2 t/20-xml-rfc5730/rfc-examples/16-info-response.xml
+SHA1 30f27d8c0681228c5552c5772b82a292e1290df0 t/20-xml-rfc5730/rfc-examples/17-poll.xml
+SHA1 f67213f041cc71d5f7060a48718a6f3344714848 t/20-xml-rfc5730/rfc-examples/18-poll-response-info.xml
+SHA1 3e822fa8763f0e54c863b2ddbd3c366d8755ac8a t/20-xml-rfc5730/rfc-examples/19-poll-ack.xml
+SHA1 4f0c1b880fc60b17dad9f8b10ae3852b1b48d002 t/20-xml-rfc5730/rfc-examples/20-poll-ack-response.xml
+SHA1 f1835d1e8aec6d9b78a76992989d210932d0f7d5 t/20-xml-rfc5730/rfc-examples/21-poll-response-content.xml
+SHA1 a1b3c16c37700cecd1d489f6cc04149e15926631 t/20-xml-rfc5730/rfc-examples/22-poll-response-empty.xml
+SHA1 7c3bbfdb3a25201e02e5433e3f5de4bc36f33b06 t/20-xml-rfc5730/rfc-examples/23-transfer-query.xml
+SHA1 a8d87a49ebec10481dbe1cf2ceb0c4df44935e89 t/20-xml-rfc5730/rfc-examples/24-transfer-query-response.xml
+SHA1 2e193ed58b5cd6ae57020d1b515bb37738cef664 t/20-xml-rfc5730/rfc-examples/25-create.xml
+SHA1 7b78b19f90fb55a157e7853c3824d9f4a5ad8050 t/20-xml-rfc5730/rfc-examples/26-create-response-resdata.xml
+SHA1 a3a8bba59142b6c5ff859273a7405ef2ba324282 t/20-xml-rfc5730/rfc-examples/27-delete.xml
+SHA1 8640046ce66a8491c39c40556f0e0b4b3d45f197 t/20-xml-rfc5730/rfc-examples/28-delete-response-noresdata.xml
+SHA1 1154e29b5770f5f14ed1faf97a9ea756cbe0f735 t/20-xml-rfc5730/rfc-examples/29-renew.xml
+SHA1 c617c06b22b5ef3dff98009be9d1a7b139f12646 t/20-xml-rfc5730/rfc-examples/30-renew-response.xml
+SHA1 fce965565bde1689e15de58a9f7ef61084b0f47f t/20-xml-rfc5730/rfc-examples/31-transfer.xml
+SHA1 e3828edcd6beb3496575c3dc302e6fb787aca85e t/20-xml-rfc5730/rfc-examples/32-transfer-resdata.xml
+SHA1 0e4936850eba317b485ec925a8d6604d34082075 t/20-xml-rfc5730/rfc-examples/33-update.xml
+SHA1 8640046ce66a8491c39c40556f0e0b4b3d45f197 t/20-xml-rfc5730/rfc-examples/34-update-response-noresdata.xml
+SHA1 e791dc0b3f890e3fc900074a492dee39b453467e t/21-xml-rfc5731-domain.t
+SHA1 37b67a113f6ea6f8f2a45c75281a246552eda4a9 t/21-xml-rfc5731-domain/rfc-examples/01-check-command.xml
+SHA1 70a76d67fed4a69542497445ab057eca96a5d1f8 t/21-xml-rfc5731-domain/rfc-examples/02-check-response.xml
+SHA1 3929d2f4750ae4cfa01ea253c546325b16a7f846 t/21-xml-rfc5731-domain/rfc-examples/03-info-command-noauth.xml
+SHA1 28b846b384c9ba496c826fffd13bf31052303e97 t/21-xml-rfc5731-domain/rfc-examples/04-info-command-auth.xml
+SHA1 a34842ac19a965488802a3b9d00df57a7e5aa1e2 t/21-xml-rfc5731-domain/rfc-examples/05-info-response-authok.xml
+SHA1 739b3e034b93c63a90b794ba4057a60aabb6f641 t/21-xml-rfc5731-domain/rfc-examples/06-info-response-noauth.xml
+SHA1 417490f5a3dcacbf888ae48738e527948f411734 t/21-xml-rfc5731-domain/rfc-examples/07-transfer-query-command.xml
+SHA1 1687dfc026b8d61c9dfd566adbd81e4931a3c485 t/21-xml-rfc5731-domain/rfc-examples/08-transfer-query-response.xml
+SHA1 dcd3c0349b9112aee89ca11eb28768e60b7eeadd t/21-xml-rfc5731-domain/rfc-examples/09-create-command.xml
+SHA1 ea6ac72705886176d0c10dd27e74103c8729cb69 t/21-xml-rfc5731-domain/rfc-examples/10-create-response.xml
+SHA1 1a3703e62cb79f72139a0abd14efca87578f8c08 t/21-xml-rfc5731-domain/rfc-examples/11-delete-command.xml
+SHA1 3562566ef0b6148f027cee297dd3ff343c6be2c7 t/21-xml-rfc5731-domain/rfc-examples/12-delete-response.xml
+SHA1 c363a487d6f648a851fc0e380f3665c132378056 t/21-xml-rfc5731-domain/rfc-examples/13-renew-command.xml
+SHA1 2915f84b6a19d1b71cb8aaa4efc1e0e2dbec408b t/21-xml-rfc5731-domain/rfc-examples/14-renew-response.xml
+SHA1 79064278102cecb423053b02b7d374946fd07bcb t/21-xml-rfc5731-domain/rfc-examples/15-transfer-request-command.xml
+SHA1 673718b98858eab2f8e3d4498dcd3712c86a1b73 t/21-xml-rfc5731-domain/rfc-examples/16-transfer-response.xml
+SHA1 7c54619391d2b369f6017010eac21bedab292d9f t/21-xml-rfc5731-domain/rfc-examples/17-update-command.xml
+SHA1 3562566ef0b6148f027cee297dd3ff343c6be2c7 t/21-xml-rfc5731-domain/rfc-examples/18-update-response.xml
+SHA1 6e23e858c2bfe19cf78ce6c571da742f4f7bed80 t/21-xml-rfc5731-domain/rfc-examples/19-create-response-needs-review.xml
+SHA1 e6f11e9c24b76e1831736cc02e9dda59b19bc5b0 t/21-xml-rfc5731-domain/rfc-examples/20-review-completed-message.xml
+SHA1 f9b4f636304aeda14d581b859d021699755ccdbb t/22-xml-rfc5732-host.t
+SHA1 58f680116b3521cad95c83070296aa1e9a509121 t/22-xml-rfc5732-host/rfc-examples/01-check-command.xml
+SHA1 3d713c9ec060e551b4cc17ab9521b55b01fed228 t/22-xml-rfc5732-host/rfc-examples/02-check-response.xml
+SHA1 42e9d5083898c61c3e61821ed8ac1ef2b4c2d4aa t/22-xml-rfc5732-host/rfc-examples/03-info-command.xml
+SHA1 9d9078136211d42ce72a63e53a674024323fa42b t/22-xml-rfc5732-host/rfc-examples/04-info-response.xml
+SHA1 240ba06eae7539e2413a736f7de606dcff36027c t/22-xml-rfc5732-host/rfc-examples/05-create-command.xml
+SHA1 5610e9743c2434a23a8960e77c6178e137e4916a t/22-xml-rfc5732-host/rfc-examples/06-create-response.xml
+SHA1 848232a356a813b9705c985164df0125170a3738 t/22-xml-rfc5732-host/rfc-examples/07-delete-command.xml
+SHA1 3562566ef0b6148f027cee297dd3ff343c6be2c7 t/22-xml-rfc5732-host/rfc-examples/08-delete-response.xml
+SHA1 b3dc0a49c4bc645336db8920aebe9b5138fbb2d6 t/22-xml-rfc5732-host/rfc-examples/09-update-command.xml
+SHA1 3562566ef0b6148f027cee297dd3ff343c6be2c7 t/22-xml-rfc5732-host/rfc-examples/10-update-response.xml
+SHA1 36129178d5b4751094eb7f561cc1d3e5e3693c74 t/22-xml-rfc5732-host/rfc-examples/11-create-response-needs-review.xml
+SHA1 418000f51946a9deb2fa740358daa7dd3ef852b3 t/22-xml-rfc5732-host/rfc-examples/12-review-completed-message.xml
+SHA1 8a4444cf833c509e01a1f267f61d18953310365a t/23-xml-rfc5733-contact.t
+SHA1 37ad0e5e76f65842ac471fd9e1f926d0c4cd836f t/23-xml-rfc5733-contact/rfc-examples/01-check-command.xml
+SHA1 fe8e6fb0dc69b0f37d76629316c340742994c16b t/23-xml-rfc5733-contact/rfc-examples/02-check-response.xml
+SHA1 0d6de947ef4823ae05bcbf789b570267b2857cc5 t/23-xml-rfc5733-contact/rfc-examples/03-info-command.xml
+SHA1 4e3a652554d5b7e528027bc6c4f636ef373e2d80 t/23-xml-rfc5733-contact/rfc-examples/04-info-response-authok.xml
+SHA1 5b824a102b803d2c2eb928c16315121dcfba3110 t/23-xml-rfc5733-contact/rfc-examples/05-transfer-query-command.xml
+SHA1 107d2f1c6d7e2849022f25dadb7643c2087fdfd8 t/23-xml-rfc5733-contact/rfc-examples/06-transfer-query-response.xml
+SHA1 20cc1df7d53a31080830b1a4a766df38496f6642 t/23-xml-rfc5733-contact/rfc-examples/07-create-command.xml
+SHA1 b5007b9773d7b5bbf0622a866fbf17f4ee292cf2 t/23-xml-rfc5733-contact/rfc-examples/08-create-response.xml
+SHA1 2c43161a23a2116a6abcaa7a5c8cd3d36b5aef81 t/23-xml-rfc5733-contact/rfc-examples/09-delete-command.xml
+SHA1 3562566ef0b6148f027cee297dd3ff343c6be2c7 t/23-xml-rfc5733-contact/rfc-examples/10-delete-response.xml
+SHA1 3c89dc52824170063467a64e3d9b2019cd7c2782 t/23-xml-rfc5733-contact/rfc-examples/11-transfer-request-command.xml
+SHA1 ebceef86a404c3e21b173f08784f0ef44f28e297 t/23-xml-rfc5733-contact/rfc-examples/12-transfer-response.xml
+SHA1 d42e0e60256c54036879030bf6bd6bb68b39c4a2 t/23-xml-rfc5733-contact/rfc-examples/13-update-command.xml
+SHA1 3562566ef0b6148f027cee297dd3ff343c6be2c7 t/23-xml-rfc5733-contact/rfc-examples/14-update-response.xml
+SHA1 ef40f7ab4049526d2b2953f64e41ce10ecd4fe2f t/23-xml-rfc5733-contact/rfc-examples/15-create-response-needs-review.xml
+SHA1 296c6a9bc101e868ca959bb0164f40ecd335b24b t/23-xml-rfc5733-contact/rfc-examples/16-review-completed-message.xml
+SHA1 02b706bd9007b5cc6976c493b2cc88e66f714183 t/25-xml-rfc3915-grace.t
+SHA1 4897b5eb6833340f84f3151f1959df5ae5e07efe t/90-pod-syntax.t
+SHA1 1b0aa297ec03576837bf66d2291907fbce73584d t/91-pod-coverage.t
+SHA1 e29db398ec80840891198c8de898bdc2b7e0ae8a t/92-license.t
+SHA1 03c705f747c2f9c8f9f68af556ed6f799c966561 t/93-perltidy.t
+SHA1 f0e9b130739751f19e1afc83ffefbf56a2279a34 t/RFCTypes.pm
+SHA1 e1aa19340099c58d91a1bb51078d708890e63888 t/XMLTests.pm
+SHA1 8885c0379523401ed6e37eff27c8c4d9c21e3d4d t/rfc-eg-sucker.pl
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+
+iEYEARECAAYFAkvFc3cACgkQ/AZAiGayWEPnhQCfau2lW/JsPCEDOtsW5KRTiCgw
+secAnjz2UBHx4Z/0Y2I71bq3p/fQrZc2
+=AW9x
+-----END PGP SIGNATURE-----

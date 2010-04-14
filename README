@@ -1,0 +1,44 @@
+README for XML::EPP
+===================
+
+This package in an implementation of the XML part of the EPP protocol,
+as described in RFC5730.  Currently, it does not implement any of the
+other RFCs which are normally considered 'core' EPP standards - ie,
+the domain, contact and host mappings.  It also does not yet implement
+an actual client which speaks the stateful SSL protocol defined in
+RFC3734.
+
+The API here is released as a preview to the shape and style of the
+API to come.  As the module is used, it will see updates,
+implementation of the other EPP standards, and possibly integration
+with modules such as Net::SSLeay::OO for a complete client API.
+
+
+Installing
+----------
+The application is designed to be installed like a CPAN module; so use
+the usual:
+
+  perl Makefile.PL
+  make
+  sudo make install
+
+The CPAN module dependencies will be highlighted during the first
+command. If you do not have 'sudo' installed, you can use:
+
+  su root -c make install
+
+
+License and credits
+-------------------
+This software development is sponsored and directed by New Zealand
+Registry Services, http://www.nzrs.net.nz/
+
+The work is being carried out by Catalyst IT,
+http://www.catalyst.net.nz/
+
+Copyright (c) 2009, 2010, NZ Registry Services.  All Rights Reserved.
+This software may be used under the terms of the Artistic License 2.0.
+Note that this license is compatible with both the GNU GPL and
+Artistic licenses.  A copy of this license is supplied with the
+distribution in the file COPYING.txt.
