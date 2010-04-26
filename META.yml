@@ -22,8 +22,8 @@ no_index:
     - t
 requires:
   Moose: 0.54
-  PRANG: 0.06
+  PRANG: 0.07
   perl: 5.010001
 resources:
   license: http://opensource.org/licenses/artistic-license.php
-version: 0.01
+version: 0.02

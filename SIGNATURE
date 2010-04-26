@@ -15,10 +15,10 @@ not run its Makefile.PL or Build.PL.
 Hash: SHA1
 
 SHA1 5ebf20e77850b956f9f03833932a7005ba59f0d9 COPYING.txt
-SHA1 c54291669d31c00ce07ee25cddddd1afb21f304c MANIFEST
+SHA1 3d86fc9b3c15b400f46dea725f54c15597d2b20b MANIFEST
 SHA1 4e36ecf0d82dd1e5efb93c715e58baab8fed3622 MANIFEST.SKIP
-SHA1 7011b907d8c8ecfea51cf329e08bec983fe02852 META.yml
-SHA1 72522602207ad519acd101eaf4d7398bb174a319 Makefile.PL
+SHA1 ba5ca236026a494f4d03621656ca5ecfa9147ed4 META.yml
+SHA1 8d00639b5bf7b6256c1c5e9d52aae0ee22896b8d Makefile.PL
 SHA1 b1a752c355af930c8d0460253ee0a12475d3847e README
 SHA1 82fdde74b9affaf4a3254fc23a2815f3c1f0f407 SubmittingPatches
 SHA1 1ebec4119486a032a5612a403e8d7b7be973e938 inc/Module/Install.pm
@@ -29,26 +29,49 @@ SHA1 0384525d85d51e99532e3ad8729d870113646d14 inc/Module/Install/Makefile.pm
 SHA1 38c657de4d91f5a60ff8e6c6f6a5547daf7c4ab2 inc/Module/Install/Metadata.pm
 SHA1 5c25f1104c0038041e3b93e0660c39171e4caf2b inc/Module/Install/Win32.pm
 SHA1 94d47349c803c4bd2a9230d25e4db0b6aaf1acd8 inc/Module/Install/WriteAll.pm
-SHA1 aca6ce01d5b452dee8c159bf662385eac00d8d1e lib/XML/EPP.pm
+SHA1 36501b2b0feaeaa3d869be459f193465e9723f8e lib/XML/EPP.pm
+SHA1 aa6c1aa42c7f5973f770f7b2a368f95fdf9cae26 lib/XML/EPP/Changes.pod
 SHA1 5f27100d27b9275a492aa98cabfea7a06998914c lib/XML/EPP/Command.pm
-SHA1 172164048243ab9f769da89956c26b784e7f55a4 lib/XML/EPP/Common.pm
+SHA1 0d32f9cd7a5c291c0ae6f7662f31cbf39d84c6b9 lib/XML/EPP/Common.pm
 SHA1 a42e75555e7e645905b037592034cb02344ac948 lib/XML/EPP/Common/ExtPassword.pm
 SHA1 3f4b52d1b772306db8a8f3bd2a935bd96fd79798 lib/XML/EPP/Common/Node.pm
 SHA1 6a547fe219e076b763efe521a8165976533df4c0 lib/XML/EPP/Common/Password.pm
-SHA1 9f8f519fe8fcbc3d9690410d8dcf614e7b92bda6 lib/XML/EPP/Common/Reason.pm
+SHA1 2111b37a8509ba79ffaec8e68bd2093bd673cfbb lib/XML/EPP/Common/Reason.pm
 SHA1 cccdaa8f5b42f039ca3b2bbec02ecdd4aea8e27d lib/XML/EPP/Common/eppcom-1.0.xsd
 SHA1 035e52b440aa15bcd091c183427ec0207e9b12b1 lib/XML/EPP/Contact/contact-1.0.xsd
 SHA1 5746662dc8b0b4fe300cbaee22965c8618383aeb lib/XML/EPP/Contact/rfc5733.txt
 SHA1 8849ae3cf7ba4d27092cf5edf4c1ff26755e4429 lib/XML/EPP/CredsOptions.pm
-SHA1 9fea581ae2257f926b80b02e9a4876f669bf090a lib/XML/EPP/DCP.pm
+SHA1 36f8a5f86ebaee0fd59c4ddadd8e17be70998c75 lib/XML/EPP/DCP.pm
 SHA1 091cd3209ea236812570144ae1e3ddc6f0ded1a9 lib/XML/EPP/Domain/domain-1.0.xsd
 SHA1 85d0d5899a8557a29f0288131dfad66fb839be61 lib/XML/EPP/Domain/rfc5731.txt
 SHA1 04cbaa44641c4a78cad5fcc9ee89c56476842df4 lib/XML/EPP/Error.pm
 SHA1 4a05207ef8b4a3b6ddf97c2ef100d41aaf03eb2a lib/XML/EPP/ExtURI.pm
 SHA1 d2d411ffbc740ea2b25a5e3f680a7856b44b10db lib/XML/EPP/Extension.pm
 SHA1 150e0d5ef012f23753a2afa7c27b35f905c8f7ec lib/XML/EPP/Extension/Type.pm
-SHA1 8b39065688db33386f536d6094d164bb93e1fc0d lib/XML/EPP/Greeting.pm
+SHA1 3805dfdaad08aa5c4998d544d011d3f1550523ce lib/XML/EPP/Greeting.pm
 SHA1 c5d6116e08c02c5f560a30110968a7ecd56574b3 lib/XML/EPP/Hello.pm
+SHA1 bf1e69e97b999ff8e7191e8623d1dff57420de69 lib/XML/EPP/Host.pm
+SHA1 013d08e8e2c8fbd34f21bae320cdc19776e39741 lib/XML/EPP/Host/Address.pm
+SHA1 e9097cd3f93cc74be1a8143df0113de3cc65f9ea lib/XML/EPP/Host/Check.pm
+SHA1 c0601e358f37d96de36f3989cf37f5777d233aa8 lib/XML/EPP/Host/Check/Name.pm
+SHA1 ce65c9c8bad5d4a53002b8721a4b81cea3878d54 lib/XML/EPP/Host/Check/Response.pm
+SHA1 fd7a53c98f0087f6a6e90ccbcd1704d0162b3e6b lib/XML/EPP/Host/Check/Status.pm
+SHA1 8f003c9e3ac12fbbb01036e7312d0fc9ac155260 lib/XML/EPP/Host/Create.pm
+SHA1 a0589ab365eaf394d9a4d737207786f146eb6cb2 lib/XML/EPP/Host/Create/Response.pm
+SHA1 d387f2f78b271464dec5bfe518bac4dcf665b926 lib/XML/EPP/Host/Delete.pm
+SHA1 8313f035398a19bfa00bf045b196e632b9aef782 lib/XML/EPP/Host/Delta.pm
+SHA1 ef832127c1a37cde58413d8e09dfde73be5d5b6b lib/XML/EPP/Host/Info.pm
+SHA1 c13c3eccd4d2e6cb4cbcab37e42d8957108641a3 lib/XML/EPP/Host/Info/Response.pm
+SHA1 b93c3910b459fdeb6cff3bdd3daf12a7a7681c13 lib/XML/EPP/Host/Item.pm
+SHA1 7897a83638c6391f799d2dce51dc25162ba93e25 lib/XML/EPP/Host/List.pm
+SHA1 525816c52d17b8212c51ba319be65429a60359fe lib/XML/EPP/Host/Node.pm
+SHA1 fb56b2cc77a25fd4ce251fa05078fdc42bbc3689 lib/XML/EPP/Host/Notification.pm
+SHA1 0c4be9b6c077835c5e75de7b1580aaa8cd2d10e3 lib/XML/EPP/Host/Notification/Result.pm
+SHA1 21bceb9160b8c7c89bf07ec53d57045b4a803983 lib/XML/EPP/Host/RQ.pm
+SHA1 15130a16124e77ee5c94ab1aede14610335d31d9 lib/XML/EPP/Host/RS.pm
+SHA1 07f2804dffdaa179f3d05a7acbc863c207ca247e lib/XML/EPP/Host/Rename.pm
+SHA1 2c0a51e152ab2853e2432cdfff2392f18252efc1 lib/XML/EPP/Host/Status.pm
+SHA1 f6773a4f61bdcb79e0f42cc835dc18f391ee6a96 lib/XML/EPP/Host/Update.pm
 SHA1 62fa1b58c541cb70e19ccab3dc4373f78e855403 lib/XML/EPP/Host/host-1.0.xsd
 SHA1 84f6d0ee88800ad3723190f0fa9242aeb47aa7c1 lib/XML/EPP/Host/rfc5732.txt
 SHA1 57e4f61ee777b105f88ce4c4596498c20af89eb2 lib/XML/EPP/Login.pm
@@ -62,17 +85,18 @@ SHA1 15bb9ef275b5c2d4244e0f8fa55dd19214f96831 lib/XML/EPP/RGP/rfc3915.txt
 SHA1 dad9752829979f093e77a3602b5dab84a164b2d7 lib/XML/EPP/RGP/rgp-1.0.xsd
 SHA1 0ff43ea8d0eacde270160864a23f20f69eb3c6e2 lib/XML/EPP/RequestedSvcs.pm
 SHA1 201e486273a506ef5a0cf834a86018993d6b0024 lib/XML/EPP/Response.pm
-SHA1 d0f16cbf5980642b0648c6581d2e59889a4aa42d lib/XML/EPP/Result.pm
+SHA1 99fe5278cc07f83f08096f2c560d6f2ecfc8167b lib/XML/EPP/Result.pm
 SHA1 fe6acf46654cac9d5e2e8f44d23e84b7d1ec6208 lib/XML/EPP/ResultData.pm
 SHA1 e478f6594055e4eb6571b0be13528df43d97ed2b lib/XML/EPP/SubCommand.pm
 SHA1 ec605d5fa177c916adfe6faf6eeb57bc295501e8 lib/XML/EPP/SubResponse.pm
-SHA1 7ff9969b257eb37a4617d65fe697e51d17e4065d lib/XML/EPP/SvcMenu.pm
-SHA1 b4e349cc6e1832942ba9723fa7bc2d000575bb38 lib/XML/EPP/TrID.pm
+SHA1 d7fc869a09a69e7766447d16f62a50301c8c69dd lib/XML/EPP/SvcMenu.pm
+SHA1 9b9f92124edf8f66a414140a814a204b09bb2415 lib/XML/EPP/TrID.pm
 SHA1 84696f0588fc528a621537a36eb6dd6f5bbd5643 lib/XML/EPP/Transfer.pm
 SHA1 cde7d6d21d21c91176d8cc7ea69b2bf1a8cd4dc8 lib/XML/EPP/epp-1.0.xsd
 SHA1 96094266ef868cdb5d42741e1457ed8da0fd99f1 lib/XML/EPP/rfc5730.txt
 SHA1 2253068b30428cebd5c1fc2c0abd6a9f51c22308 t/00-load.t
 SHA1 c9af7026de1effbb5c51bcdfee758de9c1733be8 t/01-firsteg.t
+SHA1 dd0704c34d97c7d143a5ef5b20957d4062230eba t/02-greeting-types.t
 SHA1 2170f2a08854c15434f7f19ea428775e541f8329 t/20-xml-rfc5730.t
 SHA1 92d67ed172c538fb157aa13d698f91f9110162ae t/20-xml-rfc5730/minimal/01-minimal-login.xml
 SHA1 d69ef61faec0dfd13f0eb15e37a2dcae5d681914 t/20-xml-rfc5730/rfc-examples/01-hello.xml
@@ -130,7 +154,7 @@ SHA1 7c54619391d2b369f6017010eac21bedab292d9f t/21-xml-rfc5731-domain/rfc-exampl
 SHA1 3562566ef0b6148f027cee297dd3ff343c6be2c7 t/21-xml-rfc5731-domain/rfc-examples/18-update-response.xml
 SHA1 6e23e858c2bfe19cf78ce6c571da742f4f7bed80 t/21-xml-rfc5731-domain/rfc-examples/19-create-response-needs-review.xml
 SHA1 e6f11e9c24b76e1831736cc02e9dda59b19bc5b0 t/21-xml-rfc5731-domain/rfc-examples/20-review-completed-message.xml
-SHA1 f9b4f636304aeda14d581b859d021699755ccdbb t/22-xml-rfc5732-host.t
+SHA1 82d8e995611f7f39ae835670afaf1c104f9603bc t/22-xml-rfc5732-host.t
 SHA1 58f680116b3521cad95c83070296aa1e9a509121 t/22-xml-rfc5732-host/rfc-examples/01-check-command.xml
 SHA1 3d713c9ec060e551b4cc17ab9521b55b01fed228 t/22-xml-rfc5732-host/rfc-examples/02-check-response.xml
 SHA1 42e9d5083898c61c3e61821ed8ac1ef2b4c2d4aa t/22-xml-rfc5732-host/rfc-examples/03-info-command.xml
@@ -161,17 +185,18 @@ SHA1 3562566ef0b6148f027cee297dd3ff343c6be2c7 t/23-xml-rfc5733-contact/rfc-examp
 SHA1 ef40f7ab4049526d2b2953f64e41ce10ecd4fe2f t/23-xml-rfc5733-contact/rfc-examples/15-create-response-needs-review.xml
 SHA1 296c6a9bc101e868ca959bb0164f40ecd335b24b t/23-xml-rfc5733-contact/rfc-examples/16-review-completed-message.xml
 SHA1 02b706bd9007b5cc6976c493b2cc88e66f714183 t/25-xml-rfc3915-grace.t
+SHA1 3ba4d04d6cd0979980ad048226a67f0b3bcf0c50 t/31-coersions.t
 SHA1 4897b5eb6833340f84f3151f1959df5ae5e07efe t/90-pod-syntax.t
 SHA1 1b0aa297ec03576837bf66d2291907fbce73584d t/91-pod-coverage.t
 SHA1 e29db398ec80840891198c8de898bdc2b7e0ae8a t/92-license.t
 SHA1 03c705f747c2f9c8f9f68af556ed6f799c966561 t/93-perltidy.t
-SHA1 f0e9b130739751f19e1afc83ffefbf56a2279a34 t/RFCTypes.pm
+SHA1 b16bfdb35edd1630c2010127e5daf6e4abcaac43 t/RFCTypes.pm
 SHA1 e1aa19340099c58d91a1bb51078d708890e63888 t/XMLTests.pm
 SHA1 8885c0379523401ed6e37eff27c8c4d9c21e3d4d t/rfc-eg-sucker.pl
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.9 (GNU/Linux)
 
-iEYEARECAAYFAkvFc3cACgkQ/AZAiGayWEPnhQCfau2lW/JsPCEDOtsW5KRTiCgw
-secAnjz2UBHx4Z/0Y2I71bq3p/fQrZc2
-=AW9x
+iEYEARECAAYFAkvVbQgACgkQ/AZAiGayWEMPogCfas811i/ea1lipTI4vEptcOuS
+qNoAn1pgxEsgNulLEXxqjT+rbftplDIa
+=F8If
 -----END PGP SIGNATURE-----
