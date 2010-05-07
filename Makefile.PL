@@ -14,9 +14,10 @@ author          ("Catalyst SRS Team <team-srs\@catalyst.net.nz>");
 version_from    ("lib/XML/EPP.pm");
 license         ('artistic');
 
-requires        ("perl" => 5.010001);
+requires        ("perl" => 5.010);
 requires        ("Moose" => 0.54);
 requires        ("PRANG" => 0.07);
+requires        ("MooseX::Timestamp" => 0);
 test_requires   ("XML::Compare" => 0.02);
 test_requires   ("Scriptalicious" => 0);
 test_requires   ("YAML" => 0);
