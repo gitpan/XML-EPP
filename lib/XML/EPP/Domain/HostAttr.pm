@@ -21,19 +21,30 @@ has_attr 'addrs' =>
 
 1;
 
+=head1 NAME
+
+? - implement ?
+
+=head1 SYNOPSIS
+
+TODO
+
+=head1 DESCRIPTION
+
+...
+
 =head2 XML Schema Definition
 
-<!--
-If attributes, addresses are optional and follow the
-structure defined in the host mapping.
--->
-
-<complexType name="hostAttrType">
- <sequence>
-   <element name="hostName" type="eppcom:labelType"/>
-   <element name="hostAddr" type="host:addrType"
-    minOccurs="0" maxOccurs="unbounded"/>
- </sequence>
-</complexType>
+ <!--
+ If attributes, addresses are optional and follow the
+ structure defined in the host mapping.
+ -->
+ <complexType name="hostAttrType">
+  <sequence>
+    <element name="hostName" type="eppcom:labelType"/>
+    <element name="hostAddr" type="host:addrType"
+     minOccurs="0" maxOccurs="unbounded"/>
+  </sequence>
+ </complexType>
 
 =cut

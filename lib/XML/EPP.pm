@@ -4,12 +4,13 @@ package XML::EPP;
 use Moose;
 use MooseX::Method::Signatures;
 use Moose::Util::TypeConstraints;
+use MooseX::StrictConstructor;
 
 use constant XSI_XMLNS => "http://www.w3.org/2001/XMLSchema-instance";
 
 use XML::EPP::Common;
 
-our $VERSION = 0.03;
+our $VERSION = 0.04;
 
 our $PKG;
 BEGIN{ $PKG = "XML::EPP" };

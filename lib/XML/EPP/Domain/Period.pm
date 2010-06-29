@@ -18,15 +18,27 @@ has_attr 'unit' =>
 
 1;
 
+=head1 NAME
+
+? - implement ?
+
+=head1 SYNOPSIS
+
+TODO
+
+=head1 DESCRIPTION
+
+...
+
 =head2 XML Schema Definition
 
-<complexType name="periodType">
- <simpleContent>
-   <extension base="domain:pLimitType">
-     <attribute name="unit" type="domain:pUnitType"
-      use="required"/>
-   </extension>
- </simpleContent>
-</complexType>
+ <complexType name="periodType">
+  <simpleContent>
+    <extension base="domain:pLimitType">
+      <attribute name="unit" type="domain:pUnitType"
+       use="required"/>
+    </extension>
+  </simpleContent>
+ </complexType>
 
 =cut

@@ -4,7 +4,7 @@ author:
   - 'Catalyst SRS Team <team-srs@catalyst.net.nz>'
 build_requires:
   Scriptalicious: 0
-  XML::Compare: 0.02
+  XML::Compare: 0.03
   YAML: 0
 distribution_type: module
 generated_by: 'Module::Install version 0.76'
@@ -20,6 +20,6 @@ no_index:
 requires:
   Moose: 0.54
   MooseX::Timestamp: 0
-  PRANG: 0.07
+  PRANG: 0.1
   perl: 5.01
-version: 0.03
+version: 0.04

@@ -46,11 +46,25 @@ has_element 'action_date' =>
 	xml_nodeName => 'acDate',
 	;
 
+1;
+
+=head1 NAME
+
+? - implement ?
+
+=head1 SYNOPSIS
+
+TODO
+
+=head1 DESCRIPTION
+
+...
+
 =head2 XML Schema Definition
 
-<!--
-<transfer> response elements.
--->
+ <!--
+ <transfer> response elements.
+ -->
  <complexType name="trnDataType">
    <sequence>
      <element name="id" type="eppcom:clIDType"/>

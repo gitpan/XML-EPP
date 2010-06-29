@@ -15,11 +15,23 @@ has_element 'id' =>
 
 1;
 
+=head1 NAME
+
+? - implement ?
+
+=head1 SYNOPSIS
+
+TODO
+
+=head1 DESCRIPTION
+
+...
+
 =head2 XML Schema Definition
 
-<!--
-Child element of commands that require only an identifier.
--->
+ <!--
+ Child element of commands that require only an identifier.
+ -->
  <complexType name="sIDType">
    <sequence>
      <element name="id" type="eppcom:clIDType"/>

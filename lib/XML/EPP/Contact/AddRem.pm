@@ -14,11 +14,23 @@ has_element 'status' =>
 
 1;
 
+=head1 NAME
+
+? - implement ?
+
+=head1 SYNOPSIS
+
+TODO
+
+=head1 DESCRIPTION
+
+...
+
 =head2 XML Schema Definition
 
-<!--
-Data elements that can be added or removed.
--->
+ <!--
+ Data elements that can be added or removed.
+ -->
  <complexType name="addRemType">
    <sequence>
      <element name="status" type="contact:statusType"

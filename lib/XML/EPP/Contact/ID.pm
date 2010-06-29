@@ -20,7 +20,19 @@ has_attr 'result' =>
 
 1;
 
-=head2 XMLSchema definition
+=head1 NAME
+
+XML::EPP::Contact::ID - implement paCLIDType
+
+=head1 SYNOPSIS
+
+TODO
+
+=head1 DESCRIPTION
+
+...
+
+=head2 XML Schema Definition
 
  <complexType name="paCLIDType">
    <simpleContent>

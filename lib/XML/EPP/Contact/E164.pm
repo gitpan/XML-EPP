@@ -26,3 +26,27 @@ subtype "${SCHEMA_PKG}::pwAuthInfoType"
 	=> as __PACKAGE__;
 
 1;
+
+=head1 NAME
+
+XML::EPP::Contact::E164 - implement e164Type
+
+=head1 SYNOPSIS
+
+TODO
+
+=head1 DESCRIPTION
+
+...
+
+=head2 XML Schema Definition
+
+ <complexType name="e164Type">
+   <simpleContent>
+     <extension base="contact:e164StringType">
+       <attribute name="x" type="token"/>
+     </extension>
+   </simpleContent>
+ </complexType>
+
+=cut

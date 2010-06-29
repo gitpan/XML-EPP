@@ -20,14 +20,26 @@ has_attr 'type' =>
 
 1;
 
+=head1 NAME
+
+? - implement ?
+
+=head1 SYNOPSIS
+
+TODO
+
+=head1 DESCRIPTION
+
+...
+
 =head2 XML Schema Definition
 
-<complexType name="contactType">
- <simpleContent>
- <extension base="eppcom:clIDType">
-     <attribute name="type" type="domain:contactAttrType"/>
-   </extension>
- </simpleContent>
-</complexType>
+ <complexType name="contactType">
+  <simpleContent>
+    <extension base="eppcom:clIDType">
+      <attribute name="type" type="domain:contactAttrType"/>
+    </extension>
+  </simpleContent>
+ </complexType>
 
 =cut

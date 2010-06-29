@@ -30,17 +30,29 @@ has_element 'completed' =>
 
 1;
 
+=head1 NAME
+
+? - implement ?
+
+=head1 SYNOPSIS
+
+TODO
+
+=head1 DESCRIPTION
+
+...
+
 =head2 XML Schema Definition
 
-<!--
-Pending action notification response elements.
--->
-<complexType name="panDataType">
- <sequence>
-   <element name="name" type="domain:paNameType"/>
-   <element name="paTRID" type="epp:trIDType"/>
-   <element name="paDate" type="dateTime"/>
- </sequence>
-</complexType>
+ <!--
+ Pending action notification response elements.
+ -->
+ <complexType name="panDataType">
+  <sequence>
+    <element name="name" type="domain:paNameType"/>
+    <element name="paTRID" type="epp:trIDType"/>
+    <element name="paDate" type="dateTime"/>
+  </sequence>
+ </complexType>
 
 =cut

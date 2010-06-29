@@ -30,18 +30,30 @@ has_element 'expiry_date' =>
 
 1;
 
+=head1 NAME
+
+? - implement ?
+
+=head1 SYNOPSIS
+
+TODO
+
+=head1 DESCRIPTION
+
+...
+
 =head2 XML Schema Definition
 
-<!--
-<create> response elements.
--->
-<complexType name="creDataType">
- <sequence>
-   <element name="name" type="eppcom:labelType"/>
-   <element name="crDate" type="dateTime"/>
-   <element name="exDate" type="dateTime"
-    minOccurs="0"/>
- </sequence>
-</complexType>
+ <!--
+ <create> response elements.
+ -->
+ <complexType name="creDataType">
+  <sequence>
+    <element name="name" type="eppcom:labelType"/>
+    <element name="crDate" type="dateTime"/>
+    <element name="exDate" type="dateTime"
+     minOccurs="0"/>
+  </sequence>
+ </complexType>
 
 =cut

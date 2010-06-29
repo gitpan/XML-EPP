@@ -54,7 +54,7 @@ BEGIN {
 	subtype "${PKG}::e164StringType"
 		=> as "PRANG::XMLSchema::token"
 		=> where {
-            length($_) <= 17 and $_ =~ m{(\+[0-9]{3}\.[0-9]{1,14})?}xms;
+            length($_) <= 17 and $_ =~ m{\A\+[0-9]{1,3}\.[0-9]{1,14}\z}xms;
 		};
 }
 
@@ -70,5 +70,22 @@ use XML::EPP::Contact::Check::Response;
 use XML::EPP::Contact::Info::Response;
 use XML::EPP::Contact::Transfer::Response;
 use XML::EPP::Contact::Create::Response;
+
+# load up all other classes under XML::EPP::Contact
+use XML::EPP::Contact::AddRem;
+use XML::EPP::Contact::Addr;
+use XML::EPP::Contact::AuthInfo;
+use XML::EPP::Contact::Change;
+use XML::EPP::Contact::ChangePostalInfo;
+use XML::EPP::Contact::Create;
+use XML::EPP::Contact::Disclose;
+use XML::EPP::Contact::E164;
+use XML::EPP::Contact::ID;
+use XML::EPP::Contact::Location;
+use XML::EPP::Contact::Node;
+use XML::EPP::Contact::PostalInfo;
+use XML::EPP::Contact::RQ;
+use XML::EPP::Contact::RS;
+use XML::EPP::Contact::Status;
 
 1;

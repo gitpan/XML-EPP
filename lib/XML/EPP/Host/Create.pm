@@ -48,3 +48,30 @@ subtype "XML::EPP::Host::createType" => as __PACKAGE__;
 
 1;
 
+=head1 NAME
+
+XML::EPP::Host::Create - implement createType
+
+=head1 SYNOPSIS
+
+TODO
+
+=head1 DESCRIPTION
+
+TODO
+
+=head2 XML Schema Definition
+
+ <!--
+ Child elements of the <create> command.
+ -->
+ <complexType name="createType">
+   <sequence>
+     <element name="name" type="eppcom:labelType"/>
+     <element name="addr" type="host:addrType"
+      minOccurs="0" maxOccurs="unbounded"/>
+   </sequence>
+ </complexType>
+
+=cut
+

@@ -22,19 +22,30 @@ has_element 'ns' =>
 
 1;
 
+=head1 NAME
+
+? - implement ?
+
+=head1 SYNOPSIS
+
+TODO
+
+=head1 DESCRIPTION
+
+...
+
 =head2 XML Schema Definition
 
-<!--
-Name servers are either host objects or attributes.
--->
-
-<complexType name="nsType">
- <choice>
-   <element name="hostObj" type="eppcom:labelType"
-    maxOccurs="unbounded"/>
-   <element name="hostAttr" type="domain:hostAttrType"
-    maxOccurs="unbounded"/>
- </choice>
-</complexType>
+ <!--
+ Name servers are either host objects or attributes.
+ -->
+ <complexType name="nsType">
+  <choice>
+    <element name="hostObj" type="eppcom:labelType"
+     maxOccurs="unbounded"/>
+    <element name="hostAttr" type="domain:hostAttrType"
+     maxOccurs="unbounded"/>
+  </choice>
+ </complexType>
 
 =cut

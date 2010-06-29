@@ -16,11 +16,23 @@ has_element 'ids' =>
 
 1;
 
+=head1 NAME
+
+? - implement ?
+
+=head1 SYNOPSIS
+
+TODO
+
+=head1 DESCRIPTION
+
+...
+
 =head2 XML Schema Definition
 
-<!--
-Child element of commands that accept multiple identifiers.
--->
+ <!--
+ Child element of commands that accept multiple identifiers.
+ -->
  <complexType name="mIDType">
    <sequence>
      <element name="id" type="eppcom:clIDType"

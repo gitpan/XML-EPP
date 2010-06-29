@@ -22,11 +22,23 @@ has_element 'auth_info' =>
 
 1;
 
+=head1 NAME
+
+? - implement ?
+
+=head1 SYNOPSIS
+
+TODO
+
+=head1 DESCRIPTION
+
+...
+
 =head2 XML Schema Definition
 
-<!--
-Child elements of the <info> and <transfer> commands.
--->
+ <!--
+ Child elements of the <info> and <transfer> commands.
+ -->
  <complexType name="authIDType">
    <sequence>
      <element name="id" type="eppcom:clIDType"/>

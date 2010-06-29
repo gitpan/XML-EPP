@@ -15,15 +15,27 @@ has_element 'name' =>
 
 1;
 
+=head1 NAME
+
+? - implement ?
+
+=head1 SYNOPSIS
+
+TODO
+
+=head1 DESCRIPTION
+
+...
+
 =head2 XML Schema Definition
 
-<!--
-Child element of commands that require a single name.
--->
-<complexType name="sNameType">
- <sequence>
-   <element name="name" type="eppcom:labelType"/>
- </sequence>
-</complexType>
+ <!--
+ Child element of commands that require a single name.
+ -->
+ <complexType name="sNameType">
+  <sequence>
+    <element name="name" type="eppcom:labelType"/>
+  </sequence>
+ </complexType>
 
 =cut

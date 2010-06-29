@@ -8,7 +8,7 @@ with 'XML::EPP::Domain::Node';
 use XML::EPP::Domain::Check::Name;
 has_element 'name_status' =>
         is => 'ro',
-        isa => 'ArrayRef[XML::EPP::Domain::Check::Name]',
+        isa => 'XML::EPP::Domain::Check::Name',
         xml_nodeName => 'name',
         handles => [qw(available name)],
         ;
@@ -21,6 +21,18 @@ has_element 'reason' =>
         ;
 
 1;
+
+=head1 NAME
+
+? - implement ?
+
+=head1 SYNOPSIS
+
+TODO
+
+=head1 DESCRIPTION
+
+...
 
 =head2 XML Schema Definition
 

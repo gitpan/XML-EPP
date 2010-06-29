@@ -36,11 +36,23 @@ has_element 'change' =>
 
 1;
 
+=head1 NAME
+
+? - implement ?
+
+=head1 SYNOPSIS
+
+TODO
+
+=head1 DESCRIPTION
+
+...
+
 =head2 XML Schema Definition
 
-<!--
-Child elements of the <update> command.
--->
+ <!--
+ Child elements of the <update> command.
+ -->
  <complexType name="updateType">
    <sequence>
      <element name="id" type="eppcom:clIDType"/>

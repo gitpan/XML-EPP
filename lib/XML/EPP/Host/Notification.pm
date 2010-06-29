@@ -31,7 +31,19 @@ has_element 'tx_when' =>
 
 1;
 
-=head2 XMLSchema definition
+=head1 NAME
+
+XML::EPP::Host::Notification - implement panDataType
+
+=head1 SYNOPSIS
+
+TODO
+
+=head1 DESCRIPTION
+
+...
+
+=head2 XML Schema Definition
 
  <!--
  Pending action notification response elements.

@@ -59,22 +59,34 @@ has_element 'expiry_date' =>
 
 1;
 
+=head1 NAME
+
+? - implement ?
+
+=head1 SYNOPSIS
+
+TODO
+
+=head1 DESCRIPTION
+
+...
+
 =head2 XML Schema Definition
 
-<!--
-<transfer> response elements.
--->
-<complexType name="trnDataType">
-<sequence>
- <element name="name" type="eppcom:labelType"/>
- <element name="trStatus" type="eppcom:trStatusType"/>
- <element name="reID" type="eppcom:clIDType"/>
- <element name="reDate" type="dateTime"/>
- <element name="acID" type="eppcom:clIDType"/>
- <element name="acDate" type="dateTime"/>
- <element name="exDate" type="dateTime"
-  minOccurs="0"/>
-</sequence>
-</complexType>
+ <!--
+ <transfer> response elements.
+ -->
+ <complexType name="trnDataType">
+ <sequence>
+  <element name="name" type="eppcom:labelType"/>
+  <element name="trStatus" type="eppcom:trStatusType"/>
+  <element name="reID" type="eppcom:clIDType"/>
+  <element name="reDate" type="dateTime"/>
+  <element name="acID" type="eppcom:clIDType"/>
+  <element name="acDate" type="dateTime"/>
+  <element name="exDate" type="dateTime"
+   minOccurs="0"/>
+ </sequence>
+ </complexType>
 
 =cut

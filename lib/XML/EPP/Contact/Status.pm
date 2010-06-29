@@ -30,12 +30,24 @@ subtype "XML::EPP::Contact::statusType" => as __PACKAGE__;
 
 1;
 
+=head1 NAME
+
+? - implement ?
+
+=head1 SYNOPSIS
+
+TODO
+
+=head1 DESCRIPTION
+
+...
+
 =head2 XML Schema Definition
 
-<!--
-Status is a combination of attributes and an optional human-readable
-message that may be expressed in languages other than English.
--->
+ <!--
+ Status is a combination of attributes and an optional human-readable
+ message that may be expressed in languages other than English.
+ -->
  <complexType name="statusType">
    <simpleContent>
      <extension base="normalizedString">

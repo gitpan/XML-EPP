@@ -36,22 +36,33 @@ has_element 'change' =>
 
 1;
 
+=head1 NAME
+
+? - implement ?
+
+=head1 SYNOPSIS
+
+TODO
+
+=head1 DESCRIPTION
+
+...
+
 =head2 XML Schema Definition
 
-<!--
-Child elements of the <update> command.
--->
-
-<complexType name="updateType">
- <sequence>
-   <element name="name" type="eppcom:labelType"/>
-   <element name="add" type="domain:addRemType"
-    minOccurs="0"/>
-   <element name="rem" type="domain:addRemType"
-    minOccurs="0"/>
-   <element name="chg" type="domain:chgType"
-    minOccurs="0"/>
- </sequence>
-</complexType>
+ <!--
+ Child elements of the <update> command.
+ -->
+ <complexType name="updateType">
+  <sequence>
+    <element name="name" type="eppcom:labelType"/>
+    <element name="add" type="domain:addRemType"
+     minOccurs="0"/>
+    <element name="rem" type="domain:addRemType"
+     minOccurs="0"/>
+    <element name="chg" type="domain:chgType"
+     minOccurs="0"/>
+  </sequence>
+ </complexType>
 
 =cut

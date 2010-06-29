@@ -21,18 +21,30 @@ has_element 'auth_info' =>
 
 1;
 
+=head1 NAME
+
+? - implement ?
+
+=head1 SYNOPSIS
+
+TODO
+
+=head1 DESCRIPTION
+
+...
+
 =head2 XML Schema Definition
 
-<!--
-Data elements that can be changed.
--->
-<complexType name="chgType">
- <sequence>
-   <element name="registrant" type="domain:clIDChgType"
-    minOccurs="0"/>
-   <element name="authInfo" type="domain:authInfoChgType"
-    minOccurs="0"/>
- </sequence>
-</complexType>
+ <!--
+ Data elements that can be changed.
+ -->
+ <complexType name="chgType">
+  <sequence>
+    <element name="registrant" type="domain:clIDChgType"
+     minOccurs="0"/>
+    <element name="authInfo" type="domain:authInfoChgType"
+     minOccurs="0"/>
+  </sequence>
+ </complexType>
 
 =cut
