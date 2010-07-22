@@ -241,6 +241,7 @@ SubmittingPatches
 t/00-load.t
 t/01-firsteg.t
 t/02-greeting-types.t
+t/03-error-types.t
 t/20-xml-rfc5730.t
 t/20-xml-rfc5730/minimal/01-minimal-login.xml
 t/20-xml-rfc5730/rfc-examples/01-hello.xml

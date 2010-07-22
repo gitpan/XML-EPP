@@ -10,7 +10,7 @@ use constant XSI_XMLNS => "http://www.w3.org/2001/XMLSchema-instance";
 
 use XML::EPP::Common;
 
-our $VERSION = "0.04_01";
+our $VERSION = "0.05_01";
 
 our $PKG;
 BEGIN{ $PKG = "XML::EPP" };
@@ -104,6 +104,7 @@ subtype "${PKG}::choice0" =>
 has_element 'message' =>
 	is => "rw",
 	isa => "${PKG}::choice0",
+	required => 1,
 	xml_nodeName => {
 		"greeting" => "${PKG}::Greeting",
 		"command" => "${PKG}::Command",

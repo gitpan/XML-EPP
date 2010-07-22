@@ -15,7 +15,6 @@ has 'absolute' =>
 	isa => "PRANG::XMLSchema::dateTime",
 	predicate => "has_absolute",
 	clearer => "clear_absolute",
-	trigger => sub { $_[0]->is_abs_or_rel("absolute") },
 	;
 
 has 'relative' =>
@@ -23,7 +22,6 @@ has 'relative' =>
 	isa => "PRANG::XMLSchema::duration",
 	predicate => "has_relative",
 	clearer => "clear_relative",
-	trigger => sub { $_[0]->is_abs_or_rel("relative") },
 	;
 
 has_element 'abs_or_rel' =>
@@ -34,6 +32,23 @@ has_element 'abs_or_rel' =>
 		"relative" => "PRANG::XMLSchema::duration",
 	},
 	xml_nodeName_attr => "is_abs_or_rel",
+	lazy => 1,
+	default => sub {
+		my $self = shift;
+		$self->has_absolute ? $self->absolute : $self->relative
+	},
+	trigger => sub {
+		my $self = shift;
+		my $val = shift;
+		if ( $self->is_abs_or_rel eq "relative" ) {
+			$self->clear_absolute;
+			$self->relative($val);
+		}
+		else {
+			$self->clear_relative;
+			$self->absolute($val);
+		}
+	},
 	;
 
 method is_abs_or_rel( Str $abs_or_rel? where { m{^(relative|absolute)$} } ) {
@@ -201,12 +216,14 @@ has_element 'access' =>
 	is => "rw",
 	isa => "XML::EPP::dcpAccessType",
 	coerce => 1,
+	required => 1,
 	;
 
 has_element 'statement' =>
 	is => "rw",
 	isa => "ArrayRef[XML::EPP::DCP::Statement]",
 	coerce => 1,
+	required => 1,
 	;
 
 coerce "ArrayRef[XML::EPP::DCP::Statement]"
@@ -324,18 +341,21 @@ use PRANG::Graph;
 has_element 'purpose' =>
 	is => "rw",
 	isa => "${SCHEMA_PKG}::dcpPurposeType",
+	required => 1,
 	coerce => 1,
 	;
 
 has_element 'recipient' =>
 	is => "rw",
 	isa => "${SCHEMA_PKG}::dcpRecipientType",
+	required => 1,
 	coerce => 1,
 	;
 
 has_element 'retention' =>
 	is => "rw",
 	isa => "${SCHEMA_PKG}::dcpRetentionType",
+	required => 1,
 	coerce => 1,
 	;
 
@@ -382,16 +402,6 @@ The RFC also notes;
   disclosed to provisioning entities, though the method of
   disclosing policy data outside of direct protocol interaction
   is beyond the scope of this specification.
-
-Hear that?  There's a B<MUST> there, so take heed: you absolutely must
-know about other parties' policies, in some unspecified manner, beyond
-the scope of the protocol, to be conformant to the protocol.  Nice
-work, committee!  Now, you as a reader, I B<DOUBLE DOG DARE> you to
-find out whether or not compliance with extra-protocol requirements
-like this would actually affect any kind of agreement that you have
-with any of your business partners.  Note that the B<DOUBLE DOG DARE>
-trumps all keywords defined in RFC 2119, so now I<you really have to
-do this> - nyeh nyeh nyeh-nyeh nyeh!
 
 The following classes and properties are defined; once the object
 structure is created, or if you are dealing with a DCP from a server
